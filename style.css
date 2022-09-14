@@ -19,6 +19,10 @@ body {
   display: flex;
   margin: 5px 0;
 }
+.container .row .row-section {
+  display: flex;
+  height: 100%;
+}
 .container .row .pill {
   background-color: #3b2f2f;
   border-radius: 5px;
@@ -107,7 +111,7 @@ body {
   width: 270px;
 }
 .container .row .trans {
-  background-color: rgba(248, 248, 248, 0);
+  background-color: #eee;
 }
 .container .row .green {
   background-color: #128482;

@@ -24,6 +24,10 @@ body {
     height: $unit;
     display: flex;
     margin: calc($unit / 2) 0;
+    .row-section {
+      display: flex;
+      height: 100%;
+    }
     .pill {
       background-color: $colour1;
       border-radius: calc($unit / 2);
@@ -112,7 +116,8 @@ body {
       width: calc($unit * 27);
     }
     .trans {
-      background-color: rgba($color: $colour2, $alpha: 0);
+      // background-color: rgba($color: $colour2, $alpha: 0);
+      background-color: #eee;
     }
     .green {
       background-color: $colour3;
